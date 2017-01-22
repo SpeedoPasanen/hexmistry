@@ -1,0 +1,5 @@
+<div class="tile-container no-select" (mousedown)="startDrag($event)">
+    <div *ngFor="let row of viewport" class="tile-row">
+        <tile *ngFor="let tile of row; trackBy:tile?.id" [tile]="tile"></tile>
+    </div>
+</div>

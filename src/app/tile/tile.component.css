@@ -1,0 +1,28 @@
+:host {
+    border:1px solid #888;
+    border-top-width:0;
+    border-left-width:0;
+    float:left;
+    width:70px;
+    height:70px;
+    text-align:center;
+    box-sizing: border-box;
+    position:relative;
+}
+p {
+    margin:0;
+    font-size:11px;
+    line-height:12px;
+}
+.spawner  {
+    font-weight:bold;
+    color:#33aa33;
+}
+.creature {
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    background:rgba(0,0,0, 0.2);
+}

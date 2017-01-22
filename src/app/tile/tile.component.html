@@ -1,0 +1,3 @@
+<p>{{tile.x}}, {{tile.y}}</p>
+<p *ngFor="let acc of tile.bank.accounts" [class.spawner]="acc.isSpawner">{{acc.id}}: {{acc.amount}}</p>
+<div class="creature" *ngIf="tile.creature"></div>
