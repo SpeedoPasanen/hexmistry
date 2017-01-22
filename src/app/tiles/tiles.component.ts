@@ -59,6 +59,7 @@ export class TilesComponent implements OnInit, OnDestroy {
     if (vpTimeout) {
       clearTimeout(vpTimeout);
     }
+
     ///vpTimeout = setTimeout(() => { this.drawViewport() }, 30);
     var parent = $('.tile-container').parent();
     $('.tile-container').width($(window).width() + 200);
