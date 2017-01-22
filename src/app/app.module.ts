@@ -21,4 +21,6 @@ import { TilesComponent } from './tiles/tiles.component';
   providers: [],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }
+

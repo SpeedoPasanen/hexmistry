@@ -6,6 +6,7 @@ import { TilesComponent } from './tiles/tiles.component';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
 export class AppComponent {
   @ViewChild(TilesComponent) tilesComponent: TilesComponent;
 }
